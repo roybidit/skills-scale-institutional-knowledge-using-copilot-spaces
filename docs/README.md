@@ -1,13 +1,21 @@
-# OctoAcme Project Management Documentation
+# OctoAcme Project Management Docs
 
-This directory contains the key process documents and templates used by the OctoAcme team to manage projects consistently and efficiently. These processes are designed to centralize project knowledge, accelerate onboarding, standardize workflows, and minimize single-person dependency risk.
+This README collects and summarizes the core project management processes used by OctoAcme and provides direct links to detailed documentation.
 
-## Project Management Processes at OctoAcme
+## Project Management Processes Summary
+OctoAcme uses a practical, iterative approach for project delivery, emphasizing clear roles, lightweight planning, transparency, and continuous improvement:
+- Initiate projects with a clear problem statement, success metrics, stakeholders, and deliverables.
+- Plan in short cycles with prioritized backlogs, acceptance criteria, and risk identification.
+- Execute using daily standups, weekly delivery sync, and small PRs with a strong focus on quality and testing workflows.
+- Manage risks with a dedicated register, documented mitigations, and regular communication.
+- Release using checklists & automation; track outcomes with metrics & regular retrospectives for continuous improvement.
 
-OctoAcme’s project management process is designed to ensure consistent, efficient execution across feature, service, and integration projects, grounding delivery in strong customer focus and iterative improvement. The methodology combines clear role definitions, structured workflows, and disciplined quality assurance practices—all carefully documented for transparency and onboarding ease. Every cross-functional project starts with Initiation, aligning on business need, measurable outcomes, stakeholder buy-in, and resource estimates before proceeding into structured Planning, Execution, and Release.
-
-Key roles at OctoAcme include the Project Manager (PM), Product Manager (PdM), Developers, QA/Testing specialists, and Stakeholders. The PM is responsible for delivery, schedules, risk, and communications. The PdM defines outcomes and prioritizes the backlog, while Developers focus on implementation, estimation, and code quality. QA/Testing ensures features meet acceptance criteria, and Stakeholders provide inputs and approvals at defined stages. Roles are clearly documented, with expectations around responsibility, goals, and typical communication touchpoints.
-
-Workflow practices center around modern agile frameworks such as prioritized backlogs, iterative sprints or milestones, and robust tracking using tools like GitHub Projects. Each project maintains living artifacts: a project charter or one-pager, release plans, a risk register, and regular status reports. Pull request and branching conventions are documented, emphasizing small, reviewable changes and continuous integration safeguards. New logic requires unit and integration tests, and end-to-end smoke tests are routinely executed for critical flows before release. Automated security scans and manual QA are built into the pipeline to minimize production issues.
-
-Communication is a key strength of OctoAcme’s process, featuring regular daily standups, weekly syncs, milestone demo reviews, and structured status updates. Risks are proactively managed through a risk register, with clearly defined escalation pathways for issues—from team triage to sponsor involvement when business impact is at stake. Post-release and post-incident retrospectives feed continuous improvement, ensuring lessons learned become institutional knowledge and drive ongoing process refinement.
+## 📂 Process Documentation
+- [Project Management Overview](octoacme-project-management-overview.md)
+- [Project Initiation Guide](octoacme-project-initiation.md)
+- [Project Planning](octoacme-project-planning.md)
+- [Execution & Tracking](octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
+- [Roles and Personas](octoacme-roles-and-personas.md)
